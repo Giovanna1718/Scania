@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="syleloja.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="marca"><img src="img/logo-scania-1024.png" alt="logo" /></div>
+        
+        <!-- <div class="pesquisa"> -->
+        <form>
+          <select class="pre-search">
+            <option value="1"><a href="index.html">Todas as Categorias</a></option>
+          <option value="2"><a href="loja.html">Peças</a></option>
+          <option value="3"><a href="servicos.html">Serviços</a></option></select
+          ><input class="search" type="text" placeholder="Pesquise aqui" /><input
+            class="bt-search"
+            type="submit"
+            value="Buscar"
+          />
+        </form>
+
+        <!-- </div> -->
+        <div class="user">
+          <a href="#"><i class="fa-regular fa-user"></i></a>
+          <!-- Colocar ao invés do # uma página para o forms de user -->
+        </div>
+
+      </header>
+
+      <nav class="menu-box">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="us.html">Unidos Scania</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="fale.html">Fale conosco</a></li>
+        </ul>
+      </nav><br>
+
+      <div class="titulo"><h1>Produtos</h1></div><br>   
+      
+      
+
+
+      <main>
+        <section class="vitrine">
+          <div class="prod"> <!-- Início da div 1 fileira -->
+              <div class="item">
+                <img onclick="adicionando('Paralama Scania')"  src="img/paralama.jpg" alt="Paralama">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Paralama Scania</p>
+                <p class="preco">$ <span>256.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Freio Motor Scania')" src="img/freio motor.jpg" alt="Freio motor">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Freio motor Scania</p>
+                <p class="preco">$ <span>780.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Parafuso Scania')" src="img/parafuso.jpg" alt="Parafuso">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Kit Parafuso Scania</p>
+                <p class="preco">$ <span>50.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Difusor Scania')" src="img/difusor.png" alt="Difusor">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Difusor Scania</p>
+                <p class="preco">$ <span>150.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Catalisador Scania')" src="img/catalisador.jpg" alt="Catalisador">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Catalisador Scania</p>
+                <p class="preco">$ <span>1700.00</span> <small>$990.00</small></p>
+            </div>
+         </div>  <!-- Fim da div 1 fileira -->
+         <div class="prod"> <!-- Início da div 2 fileira -->
+              <div class="item">
+                <img onclick="adicionando('Caixa de Câmbio Scania')" src="img/caixaCambio.jpg" alt="Caixa de Câmbio">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Caixa de Câmbio Scania</p>
+                <p class="preco">$ <span>45000.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Escapamento Cromado Scania')" src="img/escapamento.jpg" alt="Escapamento Cromado">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Escapamento Cromado Scania</p>
+                <p class="preco">$ <span>500.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Chicote com sensores Scania')" src="img/chicote-reparo-sensor.jpg" alt="Chicote com sensores">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Chicote com sensores Scania</p>
+                <p class="preco">$ <span>20.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Tampa Intermediáeria Retarder Scania')" src="img/tampa-intermediaria-retarde-scania-caixa-grs905-2078689-4087.png" alt="Tampa Intermediáeria Retarder Scania">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Tampa Intermediáeria Retarder Scania</p>
+                <p class="preco">$ <span>3200.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Kit de embreagem Scania')" src="img/kit_embreagem.jpg" alt="Kit de embreagem">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Kit de embreagem Scania</p>
+                <p class="preco">$ <span>3500.00</span> <small>$990.00</small></p>
+            </div>
+         </div> <!-- Fim da div 2 fileira -->
+         <div class="prod"> <!-- Início da div 3 fileira -->
+              <div class="item">
+                <img onclick="adicionando('Cruzeta Scania')" src="img/cruzeta-scania-124-tracado-cardan-grande-bz0280-hcz280-5863.png" alt="Cruzeta">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Cruzeta Scania</p>
+                <p class="preco">$ <span>450.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Cuica de Freio Scania')" src="img/cuica_freio.jpg" alt="Cuica de Freio">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Cuica de Freio Scania</p>
+                <p class="preco">$ <span>3000.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Árvore Seletora de Câmbio Scania')" src="img/arvore-seletora-sem-engrenagem-caixa-scania-6-8-marchas-1318221-6401f6a96e328.png" alt="Árvore Seletora de Câmbio">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Árvore Seletora de Câmbio Scania</p>
+                <p class="preco">$ <span>2500.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Eixo Secundário do Câmbio Scania')" src="img/eixo_secundario.jpg" alt="Eixo Secundário do Câmbio">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Eixo Secundário do Câmbio Scania</p>
+                <p class="preco">$ <span>1500.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Armação Parabrisa Scania')" src="img/armacao-grade-scania-s5-g-r-17048-2269451-1804628-63eb7dd1aeb13.png" alt="Armação Parabrisa Scania">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Armação Parabrisa Scania</p>
+                <p class="preco">$ <span>2500.00</span> <small>$990.00</small></p>
+            </div>
+         </div> <!-- Fim da div 3 fileira -->
+            <div class="prod"> <!-- Início da div 4 fileira -->
+              <div class="item">
+                <img onclick="adicionando('Volante Scania')" src="img/volante.jpg" alt="Volante">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Volante Scania</p>
+                <p class="preco">$ <span>376.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Jogo de Tapete Scania')" src="img/tapete.jpg" alt="Tapete">
+                <p class="categoria">Assessório</p>
+                <p class="desc-prod">Tapete Scania</p>
+                <p class="preco">$ <span>923.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Kit Farol Scania')" src="img/farol.jpg" alt="Farol">
+                <p class="categoria">Assessório</p>
+                <p class="desc-prod">Farol Scania</p>
+                <p class="preco">$ <span>2500.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Buzina Scania')" src="img/buzina.png" alt="Buzina">
+                <p class="categoria">Assessório</p>
+                <p class="desc-prod">Buzina Scania</p>
+                <p class="preco">$ <span>180.00</span> <small>$990.00</small></p>
+            </div>
+            <div class="item">
+                <img onclick="adicionando('Óleo Lubrificante Scania')" src="img/óleo.jpg" alt="Óleo Lubrificante Scania">
+                <p class="categoria">Category</p>
+                <p class="desc-prod">Óleo Lubrificante Scania</p>
+                <p class="preco">$ <span>430.00</span> <small>$990.00</small></p>
+            </div>
+         </div> <!-- Fim da div 4 fileira -->        
+      </section><br><br>
+      <aside>
+        <div class="topo">
+          <i class="fa-solid fa-xmark"></i>
+          <h1>Carrinho</h1>
+        </div>
+  
+        <div class="prod-car">
+  
+          <!-- <div class="car-item">
+  
+            <div class="info">
+              <p class="nome">Produto 1</p>
+              <p class="quant">x<span>1</span></p>
+            </div>
+  
+            <div class="preco">$ <span>20.00</span></div>
+  
+          </div> -->
+  
+        </div>
+  
+        <hr>
+        <div class="total">
+          <p>Total</p>
+          <p class="valor-total">$<span>0.00</span></p>
+        </div>
+      </aside>
+      
+      </main>
+      
+      <button class="bt-carrinho">Carrinho</button>
+
+      
+
+      <footer>
+        <div class="contatar">
+          <p class="titulo-news">Siga a <em>Unidos Scania</em> nas redes sociais</p>
+          <a id="local" href="https://www.google.com.br/maps/@-21.1023837,-42.3779147,3a,15y,109.52h,87.45t/data=!3m6!1e1!3m4!1sS-RxAutTB0ZdM7rw8QpC0w!2e0!7i16384!8i8192?entry=ttu"><i class="fa-solid fa-location-dot"></i></a>
+          <ul class="redes">
+              <li><a href="https://www.facebook.com/unidos.scania/?locale=pt_BR"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="https://instagram.com/unidosscania?igshid=MmVlMjlkMTBhMg=="><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+      <script src="scriptloja.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="sylefale.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="marca"><img src="img/logo-scania-1024.png" alt="logo" /></div>
+        
+        <!-- <div class="pesquisa"> -->
+        <form>
+          <select class="pre-search">
+            <option value="1"><a href="index.html">Todas as Categorias</a></option>
+          <option value="2"><a href="loja.html">Peças</a></option>
+          <option value="3"><a href="servicos.html">Serviços</a></option></select
+          ><input class="search" type="text" placeholder="Pesquise aqui" /><input
+            class="bt-search"
+            type="submit"
+            value="Buscar"
+          />
+        </form>
+
+        <!-- </div> -->
+        <div class="user">
+          <a href="#"><i class="fa-regular fa-user"></i></a>
+          <!-- Colocar ao invés do # uma página para o forms de user -->
+        </div>
+
+      </header>
+
+      <nav class="menu-box">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="us.html">Unidos Scania</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="fale.html">Fale conosco</a></li>
+        </ul>
+      </nav><br>
+
+      <main>
+        <div class="celular">
+          <a href="https://instagram.com/unidosscania?igshid=MmVlMjlkMTBhMg=="
+            ><img src="img/celular.png"
+          /></a>
+        </div>
+        <br /><br />
+        <form class="contato">
+          <h1>Nos contate</h1>
+          <br /><br />
+          <select class="opcoes">
+            <option value="1">Negociações</option>
+            <option value="2">Compra de Peças</option>
+            <option value="3">Alinhamento de Serviços</option></select
+          ><br /><br />
+  
+          <input class="nome" type="text" placeholder="Nome" /><br /><br />
+          <input
+            class="telefone"
+            type="number"
+            placeholder="Telefone"
+          /><br /><br />
+          <input class="email" type="email" placeholder="Email" /><br /><br />
+          <h1>Escreva uma prévia do que deseja.</h1>
+          <br />
+          <h1>Para sermos mais assertivos com o retorno</h1>
+          <br /><br />
+          <textarea name="falando" id="falando" cols="80" rows="10"></textarea
+          ><br /><br />
+  
+          <!-- <input class="enviar" type="submit" value="Enviar"/> -->
+          <button onclick="sucesso()" class="enviar">Enviar</button>
+        </form>
+        <div class="msg_sucesso">
+          <h1>Mensagem enviada</h1>
+          <br /><br />
+          <h3>Em breve retornaremos, e entraremos em contato com você</h3>
+          <i id="icone_Sucess" class="fa-solid fa-square-check"></i>
+        </div>
+      </main>
+  
+      <script>
+        // const bt_enviar = document.querySelector(".enviar");
+  
+        // bt_enviar.addEventListener("click", function () {
+        //   let formulario = document.querySelector(".contato");
+        //   formulario.style.display = "none";
+  
+        //   document.querySelector(".contato").style.display = "none";
+        //   setTimeout();
+        //   alert("Mensagem enviada!");
+        // });
+  
+        // if (teste.style.display == "none") {
+        //   let sucesso = document.querySelector(".msg_sucesso");
+        //   sucesso.style.display = "inline-bloco";
+        // }
+  
+        function sucesso() {
+          // Lógica para exibir o formulário e ajustar a mensagem
+          document.querySelector(".contato").style.display = "none";
+          document.querySelector(".msg_sucesso").style.display = "inline-block";
+        }
+      </script>
+      
+
+      <footer>
+        <div class="contatar">
+          <p class="titulo-news">Siga a <em>Unidos Scania</em> nas redes sociais</p>
+          <a id="local" href="https://www.google.com.br/maps/@-21.1023837,-42.3779147,3a,15y,109.52h,87.45t/data=!3m6!1e1!3m4!1sS-RxAutTB0ZdM7rw8QpC0w!2e0!7i16384!8i8192?entry=ttu"><i class="fa-solid fa-location-dot"></i></a>
+          <ul class="redes">
+              <li><a href="https://www.facebook.com/unidos.scania/?locale=pt_BR"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="https://instagram.com/unidosscania?igshid=MmVlMjlkMTBhMg=="><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
